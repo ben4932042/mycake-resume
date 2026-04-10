@@ -12,7 +12,8 @@ const PageMeta = () => {
   const profile = profileContent[lang];
   const title = `${profile.heroName} | ${profile.heroTitle}`;
   const description = profile.about[0];
-  const url = lang === "en" ? `${window.location.origin}/en` : window.location.origin;
+  const baseUrl = new URL(import.meta.env.BASE_URL, window.location.origin).toString().replace(/\/$/, "");
+  const url = lang === "en" ? `${baseUrl}/en` : baseUrl;
 
   useEffect(() => {
     document.documentElement.lang = lang === "en" ? "en" : "zh-TW";
