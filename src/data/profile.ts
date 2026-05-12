@@ -131,6 +131,12 @@ export const profileContent: Record<"en" | "zh", LocalizedProfile> = {
     ],
     achievements: [
       {
+        title: "Paw Path App 開發",
+        subtitle: "iOS 寵物友善地點探索 App",
+        period: "Apr 2026",
+        link: "https://apps.apple.com/tw/app/paw-path/id6761615262",
+      },
+      {
         title: "DevOpsDays Speaker",
         subtitle: "Observability with Grafana",
         period: "Jul 2024",
@@ -251,6 +257,12 @@ export const profileContent: Record<"en" | "zh", LocalizedProfile> = {
       },
     ],
     achievements: [
+      {
+        title: "Paw Path App Development",
+        subtitle: "Pet-friendly place discovery app for iOS",
+        period: "Apr 2026",
+        link: "https://apps.apple.com/tw/app/paw-path/id6761615262",
+      },
       {
         title: "DevOpsDays Speaker",
         subtitle: "Observability with Grafana",
